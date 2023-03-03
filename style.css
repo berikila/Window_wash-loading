@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  cursor: move;
+  background-color:#FFccFF;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  color:white;
+  text-align:center;
+ margin-top:25px;
+}
+
+#canvas1 {
+  border: 3px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -53%);
+  width: 430px;
+  height: 500px;
+  z-index: -1;
+}
