@@ -165,9 +165,9 @@ function threeAnimate(pos1, pos2, pos3, pos4){
       canvas.width = width;
       canvas.height = height;
       let ctx = canvas.getContext('2d', {willReadFrequently: true});
-      ctx.drawImage(animationImages[i], 1, 1, width, height);
+      ctx.drawImage(animationImages[i], 0, 0, width, height);
   
-      let data = ctx.getImageData(1, 1, width, height);
+      let data = ctx.getImageData(0, 0, width, height);
       animationImagesData[i] = { d: data, w: width, h: height };
       console.log(animationImagesData);
     }
